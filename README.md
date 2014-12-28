@@ -1,4 +1,4 @@
-# sails-hook-traceur
+# sails-hook-requestlogger
 
 [Sails JS](http://sailsjs.org) hook to activate [morgan](https://github.com/expressjs/morgan) request logging for yoursails app.
 
