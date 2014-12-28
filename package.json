@@ -1,0 +1,43 @@
+{
+  "name": "sails-hook-requestLogger",
+  "version": "0.11.0",
+  "description": "Sails JS hook to activate morgan request logging for every request",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/runner",
+    "test-all": "node tests/runner all",
+    "autotest": "mocha --watch --reporter spec tests/**/*Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/artificialio/sails-hook-requestLogger.git"
+  },
+  "author": "Markus Padourek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artificialio/sails-hook-requestLogger/issues"
+  },
+  "homepage": "https://github.com/artificialio/sails-hook-requestLogger",
+  "sails": {
+    "isHook": true
+  },
+   "keywords": [
+      "sails",
+      "sails.js",
+      "sails-hook",
+      "morgan"
+      ],
+  "dependencies": {
+    "morgan": "^1.5.0"
+  },
+  "devDependencies": {
+    "glob": "^4.3.2",
+    "mocha": "^2.1.0",
+    "sails": "~0.11.0-rc"
+  },
+  "contributors": [
+    {
+      "name": "Markus Padourek"
+    }
+  ]
+}
