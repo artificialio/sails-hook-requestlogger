@@ -10,7 +10,7 @@
 
 ### Usage
 
-Just lift your app as normal, and enjoy the future of Javascript today. To see what is possible, see: https://github.com/google/traceur-compiler/wiki/LanguageFeatures
+Just lift your app as normal, and all your server requests will be logged, with useful information, straight to your console.
 
 ### Configuration
 
