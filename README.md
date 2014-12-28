@@ -10,7 +10,7 @@
 
 ### Usage
 
-Just lift your app as normal, and all your server requests will be logged, with useful information, straight to your console.
+Just lift your app as normal and all your server requests will be logged, with useful information, straight to your console.
 
 ### Configuration
 
