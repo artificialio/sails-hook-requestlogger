@@ -10,7 +10,7 @@
 
 ### Usage
 
-Just lift your app as normal and all your server requests will be logged, with useful information, straight to your console.
+Just lift your app as normal and all your server requests will be logged, with useful information such as response-time, straight to your console. As a default it is activated in your dev environment but deactivated in production.
 
 ### Configuration
 
