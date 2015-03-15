@@ -6,7 +6,7 @@
 
 ### Installation
 
-`npm install sails-hook-requestLogger`
+`npm install sails-hook-requestlogger`
 
 ### Usage
 
