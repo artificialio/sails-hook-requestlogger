@@ -18,7 +18,7 @@ By default, configuration lives in `sails.config.requestlogger`.
 
 Parameter      | Type                | Details
 -------------- | ------------------- |:---------------------------------
-format        | ((string)) | Defines which logging [format](https://github.com/expressjs/morgan#predefined-formats) to use. Deaults to `dev`.
+format        | ((string)) | Defines which logging [format](https://github.com/expressjs/morgan#predefined-formats) to use. Defaults to `dev`.
 inDevelopment | ((boolean)) | Whether or not to log requests in development environment.  Defaults to `true`.
 inProduction  | ((boolean)) | Whether or not to log requests in production environment  Defaults to `false`.
 
