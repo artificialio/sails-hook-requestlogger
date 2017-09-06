@@ -18,6 +18,7 @@ module.exports = function(sails) {
         // and off for production, using the 'dev' format
         //see: https://github.com/expressjs/morgan#predefined-formats for more formats
         format: 'dev',
+        morganOptions: {},
         inDevelopment: true,
         inProduction: false
       }
@@ -35,7 +36,7 @@ module.exports = function(sails) {
 
           if ((isProduction && loggerSettings.inProduction === true) ||
             (!isProduction && loggerSettings.inDevelopment === true)) {
-              var logger = morgan(loggerSettings.format);
+              var logger = morgan(loggerSettings.format, loggerSettings.morganOptions);
               logger(req, res, function (err) {
                 if (err) next(err)
 
